@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace VitisStudio\VitisCalendar;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class VitisCalendarPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'vitis-calendar';
     }
 
     public function register(Panel $panel): void

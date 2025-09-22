@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace VitisStudio\VitisCalendar\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class VitisCalendarCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'vitis-calendar';
 
     public $description = 'My command';
 
